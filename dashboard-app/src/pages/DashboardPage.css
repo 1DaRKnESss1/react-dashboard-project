@@ -1,0 +1,33 @@
+.dashboard-content {
+  display: grid;
+  width: 100%;
+  flex-grow: 1;
+  grid-template-columns: 5fr 1.5fr 1.5fr;
+  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "work-queue   portfolio   right-stack"
+    "accounts     accounts    accounts";
+  gap: 1.5rem;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.work-queue, .portfolio-goals, .right-stack {
+  min-height: 0;
+}
+
+.work-queue { grid-area: work-queue; }
+.portfolio-goals { grid-area: portfolio; }
+.my-accounts { grid-area: accounts; }
+
+.right-stack {
+  grid-area: right-stack;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quick-actions,
+.market-intelligence {
+  flex: 1;
+}

@@ -1,0 +1,84 @@
+.dashboard-navigations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 1.5rem;
+}
+
+.nav-items-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-items-right {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  flex-shrink: 0; 
+}
+
+.nav-button {
+  background-color: #282828; 
+  color: #b0b0b0;
+  border: 1px solid #282828;
+  padding: 0.75rem 1.25rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.nav-button:hover {
+  background-color: #3a3a3a; 
+  color: #ffffff;
+  border-color: #3a3a3a; 
+}
+
+.nav-button.active {
+  background-color: #4a90e2; 
+  border-color: #4a90e2;
+  color: #ffffff;
+}
+
+.nav-arrow-button {
+  background-color: #1a1a1a; 
+  color: #ffffff;
+  border: 1px solid #333; 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+
+.nav-arrow-button:hover {
+  background-color: #2a2a2a; 
+  border-color: #555;
+}

@@ -1,0 +1,211 @@
+.my-accounts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.my-accounts h3 {
+  color: #e0e0e0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.accounts-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.accounts-search {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 50px;
+  padding: 0.6rem 1.1rem;
+  color: #ffffff;
+  font-size: 0.85rem;
+  width: 240px;
+}
+.accounts-search::placeholder {
+  color: #a0a0a0;
+}
+
+.control-button {
+  background-color: transparent;
+  color: #4a90e2;
+  border: 1.5px solid #4a90e2;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.control-button:hover { 
+  background-color: rgba(74, 144, 226, 0.1);
+  border-color: #5ca9ff;
+}
+.new-button { 
+  background-color: #4a90e2; 
+  border-color: #4a90e2; 
+  color: #ffffff; 
+}
+.new-button:hover { 
+  background-color: #5ca9ff; 
+  border-color: #5ca9ff;
+}
+
+.accounts-table-wrapper {
+  overflow-x: auto;
+}
+
+.accounts-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.25rem;
+}
+
+.accounts-table th, .accounts-table td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #30363d;
+  white-space: nowrap;
+  font-size: 0.85rem;
+  vertical-align: middle;
+}
+
+.accounts-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.accounts-table th {
+  color: #a0a0a0;
+  font-weight: 500;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #30363d;
+}
+
+.accounts-table tbody tr:nth-child(even) {
+  background-color: #21262d;
+}
+
+.account-name { display: block; font-weight: 600; color: #e0e0e0; }
+.account-type { display: block; color: #a0a0a0; font-size: 0.8rem; margin-top: 2px; }
+
+.premium-value {
+  color: #8cbefc;
+  font-weight: 600;
+}
+
+.data-tag {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: 1.5px solid transparent;
+}
+
+.data-tag.green { background-color: #1e4c3a; color: #64d284; }
+.data-tag.yellow { background-color: #5c4d2d; color: #ffca28; }
+.data-tag.red { background-color: #5a2a33; color: #ff7979; }
+
+.data-tag.solid-blue {
+  background-color: #2a3d6a;
+  color: #ffffff;
+}
+
+.data-tag.outline {
+  background-color: transparent;
+  border-color: #4a90e2;
+  color: #8cbefc;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  vertical-align: middle;
+}
+.status-dot.active { background-color: #28a745; }
+.status-dot.under-review { background-color: #ffc107; }
+
+.winnability-cell { display: flex; align-items: center; }
+.winnability-container { 
+  display: flex; 
+  align-items: center; 
+  gap: 0.6rem;
+  border: 1.5px solid #4a90e2; 
+  padding: 4px 10px; 
+  border-radius: 50px; 
+}
+.winnability-dots { display: flex; gap: 3px; }
+.rating-dot { 
+  width: 6px; 
+  height: 6px; 
+  background-color: #30363d; 
+  border-radius: 50%; 
+}
+.rating-dot.filled { background-color: #4a90e2; }
+.winnability-text { 
+  font-weight: 600; 
+  color: #4a90e2;
+  font-size: 0.85rem;
+}
+
+.actions-menu-button {
+  background: none;
+  border: none;
+  color: #a0a0a0;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+.actions-menu-button:hover {
+  background-color: #30363d;
+  color: #ffffff;
+}
+
+.actions-cell {
+  position: relative; /* Батьківський елемент для позиціонування меню */
+}
+
+.actions-dropdown {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  background-color: #2a2f37;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  padding: 0.5rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 120px;
+}
+
+.actions-dropdown a {
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease;
+}
+
+.actions-dropdown a:hover {
+  background-color: #4a90e2;
+  color: #ffffff;
+}

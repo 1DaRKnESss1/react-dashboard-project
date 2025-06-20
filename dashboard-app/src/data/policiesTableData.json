@@ -1,0 +1,78 @@
+{
+  "title": "Policies",
+  "policies": [
+    {
+      "id": 1,
+      "line": "Marine Cargo",
+      "lineId": "170330212",
+      "icon": "marine",
+      "effDate": "6/30/2026",
+      "expDate": "6/30/2027",
+      "status": "Active",
+      "expiringTech": 587500,
+      "expiringPremium": 605000,
+      "renewalToTech": 610000,
+      "renewalTech": 620000,
+      "renewalPremium": 625000,
+      "rateChange": 3.3,
+      "lossRatio": 22
+    },
+    {
+      "id": 2,
+      "line": "General Liability",
+      "lineId": "4651092",
+      "icon": "liability",
+      "effDate": "6/30/2026",
+      "expDate": "6/30/2027",
+      "status": "Active",
+      "expiringTech": 160000,
+      "expiringPremium": 165000,
+      "renewalToTech": 170000,
+      "renewalTech": 172500,
+      "renewalPremium": 175000,
+      "rateChange": 6.1,
+      "lossRatio": 55
+    },
+    {
+      "id": 3,
+      "line": "Workers Comp",
+      "lineId": "9182371",
+      "icon": "workers",
+      "effDate": "Pending",
+      "expDate": "Pending",
+      "status": "Pending",
+      "expiringTech": 0,
+      "expiringPremium": 0,
+      "renewalToTech": 73500,
+      "renewalTech": 75000,
+      "renewalPremium": 75000,
+      "rateChange": null,
+      "lossRatio": null
+    },
+    {
+      "id": 4,
+      "line": "Umbrella",
+      "lineId": "5274936",
+      "icon": "umbrella",
+      "effDate": "13/03/2026",
+      "expDate": "13/03/2027",
+      "status": "Active",
+      "expiringTech": 245000,
+      "expiringPremium": 250000,
+      "renewalToTech": 267500,
+      "renewalTech": 270000,
+      "renewalPremium": 275000,
+      "rateChange": 10.0,
+      "lossRatio": 78
+    }
+  ],
+  "totals": {
+    "expiringTech": 992500,
+    "expiringPremium": 1020000,
+    "renewalToTech": 1121000,
+    "renewalTech": 1137500,
+    "renewalPremium": 1150000,
+    "rateChange": 6.9,
+    "lossRatio": 58.3
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "PORTFOLIO LOSS RATIO TARGET",
+    "target": "TG:55%",
+    "segments": [
+      {"percentage": 48.2, "color": "#28a745"},
+      {"percentage": 13.8, "color": "#ffc107"},
+      {"percentage": 38, "color": "#dc3545"}
+    ],
+    "targetIndicatorPosition": 55,
+    "currentValue": "48.2%",
+    "status": "-6.8% (GOOD)",
+    "statusColor": "#28a745"
+  },
+  {
+    "title": "RENEWAL RETENTION",
+    "target": "TG:85-90%",
+    "segments": [
+      {"percentage": 25, "color": "#dc3545"},
+      {"percentage": 35, "color": "#ffc107"},
+      {"percentage": 15, "color": "#28a745"},
+      {"percentage": 35, "color": "#ffc107"}
+    ],
+    "currentValue": "88%",
+    "status": "ON TARGET",
+    "statusColor": "#ffc107"
+  },
+  {
+    "title": "NEW BUSINESS TARGET",
+    "progress": 67,
+    "currentValue": "$8.1M",
+    "targetValue": "$12M",
+    "color": "#4a90e2"
+  },
+  {
+    "title": "ANNUAL GWP TARGET",
+    "progress": 68,
+    "currentValue": "$28.4M",
+    "targetValue": "$42M",
+    "color": "#4a90e2"
+  }
+] 

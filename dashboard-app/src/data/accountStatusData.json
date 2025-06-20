@@ -1,0 +1,11 @@
+{
+  "title": "Account Status",
+  "steps": [
+    { "name": "Submitted", "status": "complete" },
+    { "name": "Review", "status": "complete" },
+    { "name": "Quote", "status": "complete" },
+    { "name": "Bind", "status": "complete" },
+    { "name": "Issue", "status": "complete" },
+    { "name": "Renew", "status": "incomplete" }
+  ]
+}

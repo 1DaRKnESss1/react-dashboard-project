@@ -1,0 +1,69 @@
+.account-page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-main-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.account-header,
+.needs-attention-section, 
+.performance-metrics-section {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.status-compliance-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.external-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.external-section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+.history-link {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.history-link:hover {
+  text-decoration: underline;
+}
+
+.status-compliance-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.account-details-container {
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  .status-compliance-row {
+    grid-template-columns: 1fr;
+  }
+}

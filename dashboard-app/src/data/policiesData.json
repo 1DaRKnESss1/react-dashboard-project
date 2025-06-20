@@ -1,0 +1,40 @@
+{
+  "title": "Policies",
+  "policies": [
+    {
+      "icon": "FaShip",
+      "name": "Marine Cargo",
+      "premium": "$625,000",
+      "effDate": "6/30/2026",
+      "color": "#4a90e2"
+    },
+    {
+      "icon": "FaShieldAlt",
+      "name": "General Liability",
+      "premium": "$175,000",
+      "effDate": "6/30/2026",
+      "color": "#50e3c2"
+    },
+    {
+      "icon": "FaHardHat",
+      "name": "Workers Comp",
+      "premium": "$75,000",
+      "effDate": "---",
+      "color": "#9013fe"
+    },
+    {
+      "icon": "FaHome",
+      "name": "Property",
+      "premium": "$64,829.83",
+      "effDate": "---",
+      "color": "#f5a623"
+    },
+    {
+      "icon": "FaUmbrella",
+      "name": "Umbrella",
+      "premium": "$275,000",
+      "effDate": "13/03/2026",
+      "color": "#d0021b"
+    }
+  ]
+}

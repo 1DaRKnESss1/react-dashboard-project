@@ -1,0 +1,62 @@
+.account-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.account-logo {
+  width: 72px;
+  height: 72px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px; 
+}
+
+.account-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-details h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 0;
+  margin-bottom: 0.4rem;
+}
+
+.account-info-right {
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.info-block:not(:first-child) {
+  padding-left: 1.75rem;
+  margin-left: 1.75rem;
+  border-left: 1px solid #444;
+}
+
+.info-label {
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.info-value {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.4; 
+  white-space: nowrap;
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Compliance & Documentation",
+  "historyLink": {
+    "text": "See history →",
+    "url": "#"
+  },
+  "items": [
+    { "text": "KYC verification", "status": "complete" },
+    { "text": "Required Documentation", "status": "complete" },
+    { "text": "Regulatory approval", "status": "complete" },
+    { "text": "Financial Verification", "status": "complete" }
+  ]
+}

@@ -1,0 +1,29 @@
+.compliance-card {
+  background-color: #161a20;
+  border: 1px solid #30363d;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.compliance-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem 1.5rem; 
+}
+
+.compliance-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.compliance-icon {
+  color: #50e3c2;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.compliance-item span {
+  font-size: 1rem;
+  color: #e0e0e0;
+}

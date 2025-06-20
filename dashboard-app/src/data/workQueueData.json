@@ -1,0 +1,62 @@
+[
+  {
+    "originatorInitials": "SM",
+    "originatorName": "Sam Masters",
+    "avatarColor": "#5e35b1",
+    "clientName": "NAMEX Tech Solutions",
+    "clientLine": "Cyber Liability",
+    "type": "Underwriter Referral",
+    "status": "New",
+    "created": "04/16/2025"
+  },
+  {
+    "originatorInitials": "AW",
+    "originatorName": "Annalise Willis",
+    "avatarColor": "#1e88e5",
+    "clientName": "Maritime Logistics Corp",
+    "clientLine": "Marine Cargo",
+    "type": "Underwriter Referral",
+    "status": "New",
+    "created": "04/20/2025"
+  },
+  {
+    "originatorInitials": "PD",
+    "originatorName": "Patrick Devenport",
+    "avatarColor": "#d84315",
+    "clientName": "GreenField Energy Ltd",
+    "clientLine": "Environmental",
+    "type": "Loss Control Request",
+    "status": "New",
+    "created": "04/16/2025"
+  },
+  {
+    "originatorInitials": "AK",
+    "originatorName": "Ana Killian",
+    "avatarColor": "#43a047",
+    "clientName": "NorthStar Financial Group",
+    "clientLine": "D&O Liability",
+    "type": "Underwriter Referral",
+    "status": "Pending Review",
+    "created": "04/22/2025"
+  },
+  {
+    "originatorInitials": "AK",
+    "originatorName": "Ana Killian",
+    "avatarColor": "#43a047",
+    "clientName": "Alliance Healthcare Systems",
+    "clientLine": "Medical Malpractice",
+    "type": "Email",
+    "status": "Completed",
+    "created": "04/28/2025"
+  },
+  {
+    "originatorInitials": "MK",
+    "originatorName": "Me",
+    "avatarColor": "#fdd835",
+    "clientName": "QuantumTech Industries",
+    "clientLine": "Product Liability",
+    "type": "Email",
+    "status": "Completed",
+    "created": "04/20/2025"
+  }
+] 

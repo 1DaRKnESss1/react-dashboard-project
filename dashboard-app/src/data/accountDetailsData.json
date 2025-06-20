@@ -1,0 +1,77 @@
+{
+  "title": "Account Details",
+  "nav": [
+    {
+      "category": "DECISION SUPPORT",
+      "count": 4,
+      "items": ["Winnability", "Exposure Review & Suggested Coverage", "Portfolio Strategy Alignment", "Broker Analytics"],
+      "active": "Winnability"
+    },
+    {
+      "category": "RISK ASSESSMENT",
+      "count": 6,
+      "items": []
+    },
+    {
+      "category": "DOCUMENTS AND COMPLIANCE",
+      "count": 2,
+      "items": []
+    }
+  ],
+  "winnability": {
+    "main_title": "Winnability",
+    "overall_score": {
+      "title": "Overall Score",
+      "score": 82,
+      "rating": "Very Strong"
+    },
+    "historical_trend": {
+      "title": "Historical trend"
+    },
+    "position": {
+      "title": "Position",
+      "your_score": 82,
+      "market_avg": 68,
+      "top_competitor": 88,
+      "bars": [
+        { "label": "Your score", "value": 82 },
+        { "label": "Market Avg", "value": 68 },
+        { "label": "Top competitor", "value": 88 }
+      ]
+    },
+    "increasing_factors": {
+      "title": "Increasing Winnability",
+      "icon": "increase",
+      "factors": [
+        { "name": "Brokers relationship", "value": 28 },
+        { "name": "Loss history", "value": 22 },
+        { "name": "Industry growth", "value": 16 },
+        { "name": "Multiline opportunity", "value": 11 }
+      ]
+    },
+    "decreasing_factors": {
+      "title": "Decreasing Winnability",
+      "icon": "decrease",
+      "factors": [
+        { "name": "Premium pricing", "value": -24 },
+        { "name": "Total exposure", "value": -18 },
+        { "name": "Loss ratio trend", "value": -13 },
+        { "name": "Market competition", "value": -5 }
+      ]
+    }
+  },
+  "recommendations": {
+    "title": "AI-Powered Recommendations",
+    "icon": "ai",
+    "items": [
+      {
+        "title": "Offer 5% premium discount in exchange for 3-year commitment",
+        "description": "Historical win rate increases 24% with multi-year commitments. Current pricing is 12% above market average. This approach would strengthen retention while maintaining adequate profitability."
+      },
+      {
+        "title": "Propose risk control services for cargo handling procedures",
+        "description": "Can potentially reduce loss ratio by 15-20% based on similar maritime accounts in your portfolio. Specific focus on loading/unloading operations would address the most frequent claim scenarios."
+      }
+    ]
+  }
+}

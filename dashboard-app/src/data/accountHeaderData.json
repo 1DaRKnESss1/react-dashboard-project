@@ -1,0 +1,21 @@
+{
+  "name": "Maritime Logistics Corp",
+  "infoBlocks": [
+    {
+      "label": "425 Harbor Boulevard, Suite 300",
+      "value": "Seattle, WA 98104"
+    },
+    { 
+      "label": "EXISTING ACCOUNT", 
+      "value": "54383" 
+    },
+    { 
+      "label": "BROKER", 
+      "value": "Marsh McLennan" 
+    },
+    { 
+      "label": "UNDERWRITER", 
+      "value": "Kate Johnson" 
+    }
+  ]
+}

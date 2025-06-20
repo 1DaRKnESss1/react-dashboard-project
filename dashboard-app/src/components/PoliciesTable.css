@@ -1,0 +1,172 @@
+/* ==========================================================================
+   Стилі для компонента PoliciesTable (Фінальна версія)
+   ========================================================================== */
+.policies-table-card {
+  background-color: #161a20;
+  border: 1px solid #30363d;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  color: #e0e0e0;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th, td {
+  padding: 1rem 0.75rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+thead th {
+  color: #a0a0a0;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #30363d;
+}
+
+tbody tr {
+  border-bottom: 1px solid #30363d;
+  transition: background-color 0.2s ease; /* Плавний перехід для ховеру */
+}
+
+/* ОНОВЛЕНО: Додаємо фон для парних рядків */
+tbody tr:nth-child(even) {
+  background-color: #21262d; /* Трохи світліший відтінок */
+}
+
+tbody tr:hover {
+  background-color: #2a2f37; /* Ефект при наведенні миші */
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  color: #a0a0a0;
+  font-weight: 500;
+}
+
+tbody td {
+  color: #e0e0e0;
+}
+
+.premium-bold {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.line-cell {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.policy-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.policy-icon.marine { background-color: #3b5998; }
+.policy-icon.liability { background-color: #28a745; }
+.policy-icon.workers { background-color: #563d7c; }
+.policy-icon.umbrella { background-color: #dc3545; }
+
+
+.line-name {
+  display: block;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+.line-id {
+  display: block;
+  font-size: 0.8rem;
+  color: #a0a0a0;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+.status-dot.active { background-color: #28a745; }
+.status-dot.pending { background-color: #ffc107; }
+
+.rate-change-high {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.loss-ratio-badge {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.loss-ratio-badge.green { 
+  background-color: #28a745; 
+  color: #ffffff;
+}
+.loss-ratio-badge.yellow { 
+  background-color: #ffc107; 
+  color: #161a20;
+}
+.loss-ratio-badge.red { 
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.loss-ratio-na {
+  color: #a0a0a0;
+  font-weight: 500;
+}
+
+.action-btn {
+  background: #2a2f37;
+  border: 1px solid #30363d;
+  color: #a0a0a0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.action-btn:hover {
+  color: #ffffff;
+  border-color: #4a90e2;
+}
+
+tfoot td {
+  font-weight: 700;
+  border-top: 2px solid #30363d;
+  color: #e0e0e0;
+}
+.total-label {
+  color: #a0a0a0;
+  text-align: right !important;
+  padding-right: 2rem !important;
+}

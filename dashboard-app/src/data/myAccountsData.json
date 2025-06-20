@@ -1,0 +1,58 @@
+[
+  {
+    "accountName": "NAMEX Tech Solutions",
+    "accountType": "Large Enterprise",
+    "line": "D&O Liability",
+    "broker": "Willis Towers",
+    "renewalDate": "04/16/2025",
+    "premium": "$2.3M",
+    "ratedPremium": "$2.8M",
+    "lossRatio": "32%",
+    "appetite": "HIGH",
+    "status": "Active",
+    "triage": 180,
+    "winnability": "Very Strong"
+  },
+  {
+    "accountName": "Alliance Healthcare Systems",
+    "accountType": "Mid-Market",
+    "line": "Medical Malpractice",
+    "broker": "Aon Risk",
+    "renewalDate": "06/30/2025",
+    "premium": "$1.7M",
+    "ratedPremium": "$1.9M",
+    "lossRatio": "38%",
+    "appetite": "MEDIUM",
+    "status": "Under review",
+    "triage": 165,
+    "winnability": "Strong"
+  },
+  {
+    "accountName": "Maritime Logistics Corp",
+    "accountType": "Shipping/Logistics",
+    "line": "Marine Cargo",
+    "broker": "Marsh McLennan",
+    "renewalDate": "09/05/2025",
+    "premium": "$875K",
+    "ratedPremium": "$920K",
+    "lossRatio": "25%",
+    "appetite": "HIGH",
+    "status": "Active",
+    "triage": 182,
+    "winnability": "Very Strong"
+  },
+  {
+    "accountName": "GreenField Energy Ltd",
+    "accountType": "Energy Sector",
+    "line": "Environmental Liability",
+    "broker": "Aon Risk",
+    "renewalDate": "07/22/2025",
+    "premium": "$1.2M",
+    "ratedPremium": "$1.4M",
+    "lossRatio": "67%",
+    "appetite": "CAUTIOUS",
+    "status": "Under review",
+    "triage": 158,
+    "winnability": "Medium"
+  }
+]
